@@ -1,0 +1,68 @@
+body{
+    background:lightgray;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+
+header{
+    background:white;
+}
+
+h1{
+    margin:0;
+    line-height: 2.5;
+}
+
+.centeredContainer{
+    width:600px;
+    margin:auto;
+}
+
+#mainContainer{
+    margin-bottom:80px;
+}
+
+.postContainer{
+    margin-top:30px;
+    background:white;
+}
+
+.postHeaderContainer{
+    display:flex;
+}
+
+.postHeaderContainer div{
+    width:50%;
+    /*border-bottom:1px solid lightgray; use if min height with visible borders between text and image is necessary for shorter images*/
+}
+
+h2{
+    margin:0;
+    font-size:20px;
+    padding:15px;
+}
+
+.postHeaderDateContainer{
+    text-align: right;
+}
+
+.postHeaderDateContainer p{
+    margin:0;
+    padding:15px;
+    line-height: 1.5;
+    color:gray;
+}
+
+.postCommentContainer p{
+    margin:0;
+    padding:15px;
+}
+
+/*use below if min height with visible borders between text and image is necessary for shorter images
+.postContentContainer{
+    min-height: 600px;
+    border-bottom:1px solid lightgray;
+    display:flex;
+    align-items:center;
+}*/
+
